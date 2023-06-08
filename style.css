@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+
+
+
+.login {
+    height: 100vh;
+    padding: 2.5rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    opacity: 0;
+    animation: fadein 1s ease forwards;
+  }
+  .login__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  .login__logo > a > img {
+    object-fit: contain;
+    width: 12rem;
+  }
+  .login__language {
+    color: #393c41;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 8px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: all 0.2s ease-in;
+  }
+  .login__language:hover {
+    background-color: rgba(211, 211, 211, 0.294);
+  }
+  
+  .login__language > .MuiSvgIcon-root {
+    font-size: 2rem;
+  }
+  .login__language > span {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .login__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 33rem;
+    margin: 0 auto;
+  }
+  .login__info h1 {
+    font-weight: 500;
+    font-size: 4rem;
+    margin-left: -1rem;
+    color: #171a20;
+    margin-bottom: 2rem;
+  }
+  
+  .login__divider {
+    display: flex;
+    justify-content: center;
+    color: #5c5e62;
+  }
+  .login__divider > span {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  .login__divider > span::before,
+  .login__divider > span::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    margin: 4px 8px;
+    background-color: rgb(226, 227, 227);
+  }
+  
+  @keyframes fadein {
+    0% {
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+  
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form > label {
+    color: #5c5e62;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+  }
+  .form > input {
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    outline: none;
+    color: #393c41;
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    transition: all 0.2s ease-out;
+  }
+ 
+  .button {
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.2rem 4rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+  }
+  .primary {
+    background-color: #adbeef;
+    color: white;
+  }
+  
+
+  .center-parent {
+    text-align: center;
+    text-decoration:underline;
+    font-size: 20px;
+    serìfont: 1em sans-serif;
+    
+
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+ 
+
+ .footer-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    padding: 16px;
+
+}
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.footer-list-1 {
+    color: var(--tds-color--black);
+    font-size: 15px;
+    padding: 4px 8px;
+}
+
+
+
+.signup {
+    height: 100vh;
+    padding: 2.5rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    opacity: 0;
+    animation: fadein 1s ease forwards;
+  }
+  .signup__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 33rem;
+    margin: 0 auto;
+  }
+  .signup__info h1 {
+    font-weight: 500;
+    font-size: 4rem;
+    margin-left: -1rem;
+    color: #171a20;
+    margin-bottom: 2rem;
+  }
+
+  .text{
+    font-size: 15px;
+    serìfont: 1em sans-serif;
+    width: 320px;
+
+  }
+  .text-1{
+    text-decoration:underline;
+
+  }
+  .signup__divider {
+    display: flex;
+    justify-content: center;
+    color: #5c5e62;
+  }
+  .signup__divider > span {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  .signup__divider > span::before,
+  .signup__divider > span::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    margin: 4px 8px;
+    background-color: rgb(226, 227, 227);
+  }
+  
+ 
